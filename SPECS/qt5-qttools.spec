@@ -12,7 +12,7 @@
 Summary: Qt5 - QtTool components
 Name:    qt5-qttools
 Version: 5.15.9
-Release: 6%{?dist}
+Release: 7%{?dist}
 
 License: LGPLv3 or LGPLv2
 Url:     http://www.qt.io
@@ -525,6 +525,10 @@ fi
 %endif
 
 %changelog
+* Wed Apr 16 2025 Jan Grulich <jgrulich@redhat.com>
+- Rebuild (LLVM-20)
+  Resolves: RHEL-81777
+
 * Mon Dec 16 2024 Jan Grulich <jgrulich@redhat.com>
 - Rebuild (LLVM-19)
   Resolves: RHEL-66115
